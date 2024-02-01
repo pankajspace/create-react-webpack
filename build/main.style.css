@@ -1,13 +1,54 @@
 /*!*****************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
   \*****************************************************************/
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"),
+    url(ed41bedf131bc097372a.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"),
+    url(1b0809d519837cb7aad3.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans Semibold"), local("OpenSans-Semibold"),
+    url(a16d8201b06a03c6c365.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"),
+    url(dbb97fd982ce1b96b6de.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Extrabold"), local("OpenSans-Extrabold"),
+    url(110e781b605b33c1b949.ttf) format("ttf");
+}
+
 html {
   font-size: 62.5%;
 }
 
 body {
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: OpenSans, sans-serif;
   font-size: 2rem;
   /* 1rem = 10px here */
   background-color: #000;
