@@ -12,6 +12,11 @@ body {
   /* 1rem = 10px here */
   background-color: #000;
   color: #fff;
+  background-image: url(8481cb11524c4404b02f.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 *,
