@@ -19,3 +19,14 @@ In this repo I have created a simple React app with webpack. Each branch contain
 10. create src/App.js
 11. create webpack.config.js
 12. add start script in package.json
+
+## Adding CSS support
+
+1.  The css-loader interprets @import and url() like import/require() and will resolve them.
+    - npm i css-loader --save-dev
+2.  This plugin extracts CSS into separate files. It creates a CSS file per JS file which contains CSS. It supports On-Demand-Loading of CSS and SourceMaps.
+    - npm i mini-css-extract-plugin --save-dev
+3.  create src/index.css
+4.  Move App.jsx to components folder and add App.css
+5.  Modified webpack.dev.js to change bundle file names for js and css.
+6.  Add build script in package.json to see how bundles are created.
