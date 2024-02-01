@@ -1,12 +1,11 @@
 @font-face {
   font-family: "OpenSans";
-  src: local('OpenSans') url(fonts/OpenSans/OpenSans-Regular.ttf) format('truetype'),
-    url(fonts/OpenSans/OpenSans-Regular.woff) format('woff');
+  src: url(fonts/OpenSans/OpenSans-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: "OpenSansBold";
-  src: local('OpenSansBold') url(fonts/OpenSans/OpenSans-Bold.ttf) format('truetype');
+  src: url(fonts/OpenSans/OpenSans-Bold.ttf) format('truetype');
 }
 
 html {
@@ -15,10 +14,10 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: cursive;
-  font-family: "OpenSansBold";
+  font-family: 'OpenSans';
   font-size: 2rem;
   /* 1rem = 10px here */
+
   background-color: #000;
   color: #fff;
   background-image: url(./images/helloworld.png);
