@@ -1,41 +1,12 @@
 @font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  src: local("Open Sans Light"), local("OpenSans-Light"),
-    url(fonts/OpenSans/OpenSans-Light.ttf) format("ttf");
+  font-family: "OpenSans";
+  src: local('OpenSans') url(fonts/OpenSans/OpenSans-Regular.ttf) format('truetype'),
+    url(fonts/OpenSans/OpenSans-Regular.woff) format('woff');
 }
 
 @font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Open Sans"), local("OpenSans"),
-    url(./fonts/OpenSans/OpenSans-Regular.ttf) format("ttf");
-}
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-  src: local("Open Sans Semibold"), local("OpenSans-Semibold"),
-    url(fonts/OpenSans/OpenSans-SemiBold.ttf) format("ttf");
-}
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Open Sans Bold"), local("OpenSans-Bold"),
-    url(fonts/OpenSans/OpenSans-Bold.ttf) format("ttf");
-}
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Open Sans Extrabold"), local("OpenSans-Extrabold"),
-    url(fonts/OpenSans/OpenSans-ExtraBold.ttf) format("ttf");
+  font-family: "OpenSansBold";
+  src: local('OpenSansBold') url(fonts/OpenSans/OpenSans-Bold.ttf) format('truetype');
 }
 
 html {
@@ -45,7 +16,7 @@ html {
 body {
   box-sizing: border-box;
   font-family: cursive;
-  font-family: OpenSans;
+  font-family: "OpenSansBold";
   font-size: 2rem;
   /* 1rem = 10px here */
   background-color: #000;
