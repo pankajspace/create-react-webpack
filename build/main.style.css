@@ -1,0 +1,29 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
+  \*****************************************************************/
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  /* 1rem = 10px here */
+  background-color: #000;
+  color: #fff;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+/*!**************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/App.css ***!
+  \**************************************************************************/
+h1 {
+  color: blueviolet;
+}
