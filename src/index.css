@@ -9,6 +9,11 @@ body {
   /* 1rem = 10px here */
   background-color: #000;
   color: #fff;
+  background-image: url(./images/helloworld.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 *,

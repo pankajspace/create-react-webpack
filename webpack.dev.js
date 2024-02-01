@@ -40,6 +40,10 @@ module.exports = {
           "css-loader"  //reads the contents of css file and returns js representation
         ]
       },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
     ],
   },
   plugins: [
