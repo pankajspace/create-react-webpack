@@ -1,6 +1,6 @@
 # Create React Webpack
 
-In this repo I have created a simple React app with webpack. Each branch contains a step to configure webpack with different features. final code is in the main branch. I will keep on adding branches for more features.
+In this repo I have created a simple React app using webpack. Each branch contains a step to configure webpack with different features. final code is in the main branch. I will keep on adding branches for more features.
 
 ## React & Webpack setup supporting basic features to run a simple app
 
